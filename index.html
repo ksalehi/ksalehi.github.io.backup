@@ -1,5 +1,117 @@
+<!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8">
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js"
+            integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="
+            crossorigin="anonymous">
+    </script>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,100' rel='stylesheet' type='text/css'>
+    <script src="entry.js"></script>
+    <title>Kia Salehi</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav-header">
+        <h1 class="header-name">KIA SALEHI</h1>
+        <h1 class="header-title">SOFTWARE ENGINEER</h1>
+      </div>
+      <div>
+        <h2 class="about">ABOUT</h2>
+        <h2 class="resume">RESUME</h2>
+        <h2 class="projects">PROJECTS</h2>
+        <h2 class="contact">CONTACT</h2>
+      </div>
+    </nav>
+    <article class="about-content hidden">
+      <div class="divider background">
+        <div class="about-me">
+          <p>ABOUT ME</p>
+          <br>
+          <p>I'm a software engineer out of the Bay Area with experience designing
+          and building full-stack web applications using JavaScript, Ruby and
+          React.js. My background is in neuroscience and pure math. When
+          I'm not coding, I can be found trail running around Berkeley,
+          playing board games with friends, or serving as a pillow for my cat,
+          Muenster.</p>
+        </div>
+        <div class="muenster">
+          <img src="images/muenster.png" class="muenster"></img>
+        </div>
+      </div>
+    </article>
+    <article class="resume-content hidden">
+      <img src="images/PersonalWebsite-Resume-KiaSalehi.png" class="resume-image"></img>
+    </article>
 
-<h1>Kia Salehi</h1>
+    <section class="projects-content hidden">
+      <article class="project">
+        <h1><a href="http://www.noteworthy.site">Noteworthy</a></h1>
+        <div class="divider">
+          <div class="divider-left">
+            <p><i>An Evernote-inspired note management app</i></p>
+            <ul class="bullet-points">
+              <li>Employs single-page architecture powered by React Router that minimizes HTTP requests and provides seamless user experience</li>
+              <li>Automatically saves notes to database in response to browser events using Flux listeners and AJAX requests</li>
+              <li>Features clean and intuitive user interface made with hand-rolled HTML5/CSS3</li>
+              <li>Integrates Quill.js library with note creation form to allow rich-text editing of notes</li>
+            </ul>
+          </div>
+          <div class="divider-right">
+            <img src="images/noteworthy_landing.png" class="noteworthy-splash"></img>
+            <img src="images/noteworthy_example.png" class="noteworthy-splash"></img>
+          </div>
+        </div>
+        <img src="images/noteworthy_home.png" class="noteworthy-landing"></img>
+      </article>
+      <br>
+      <article class="project">
+        <h1><a href="https://chrome.google.com/webstore/detail/safescroll/lkkeaiancamiccigdofacokfdjegoanm">SafeScroll</a></h1>
+        <div class="divider">
+          <div class="divider-left">
+            <p><i>A Chrome extension that blocks triggering content for
+              trauma survivors</i></p>
+            <ul class="bullet-points">
+              <li>Scans web pages for text nodes with target content and manipulates DOM tree to insert removable screen over matching nodes using jQuery</li>
+              <li>Saves custom user-defined categories across browser sessions through interface with Chrome Storage API</li>
+            </ul>
+          </div>
+          <div class="divider-right">
+            <img src="images/settings.png" class="noteworthy-splash"></img>
+          </div>
+        </div>
+        <img src="images/trump.png" class="noteworthy-landing"></img>
+      </article>
+      <br>
+      <article class="project">
+        <h1><a href="http://ksalehi.github.io/PianoHero">Piano Hero</a></h1>
+        <div class="divider">
+          <div class="divider-left">
+            <p><i>A browser game modeled after Guitar Hero</i></p>
+            <ul class="bullet-points">
+              <li>Renders keyboard visuals to Canvas dynamically in response to user input via jQuery event handlers</li>
+              <li>Integrates Web Audio API to synthesize sounds on key press</li>
+              </ul>
+          </div>
+          <div class="divider-right">
+            <img src="images/piano_hero.png" class="noteworthy-splash"></img>
+          </div>
+        </div>
+      </article>
+    </section>
+    <article class="contact-content hidden">
+      <p>
+        <p>ksalehi@wellesley.edu</p>
+        <p>(540) 293-6483</p>
+        <p><a href="http://www.github.com/ksalehi">www.github.com/ksalehi</a></p>
+        <p><a href="http://www.linkedin.com/in/kiasalehi">www.linkedin.com/in/kiasalehi</a></p>
+      </p>
+    </article>
+    <div>
+      <div class="cover-photo"></div>
+      <span class="copyright">&copy Kia Salehi 2016</span>
+    </div>
 
+    <link rel="stylesheet" href="style.css">
+  </body>
 </html>

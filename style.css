@@ -1,0 +1,158 @@
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+.cover-photo {
+  background: url('images/cover_photo2.png') no-repeat;
+  background-size: 100%;
+  min-height: 515px;
+  border-radius: 2px;
+}
+
+.header-name {
+  display: inline;
+  font-size: 3vw;
+  color: #656565;
+}
+
+.header-title {
+  display: inline;
+  font-size: 3vw;
+  color: #9b9b9b;
+  /*padding: 10px;*/
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.clickable:hover {
+  cursor: pointer;
+}
+
+h2 {
+  font-size: 1.5vw;
+  display: inline;
+  padding: 10px;
+  line-height: 40px;
+}
+
+h2:hover {
+  cursor: pointer;
+  background: #df1c35;
+  transition: 0.2s ease;
+  border-radius: 2px;
+  color: white;
+}
+
+.hidden {
+  display: none;
+}
+
+.about-content,
+.resume-content,
+.projects-content,
+.contact-content {
+  margin: 25px 50px;
+  padding: 25px 50px;
+}
+
+.resume-image {
+  width: 80vw;
+  max-width: 800px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+}
+
+.copyright {
+  /*position: absolute;
+  top: 575px;
+  right: 10px;*/
+  margin: 10px 20px;
+  float: right;
+}
+
+.muenster {
+  background: url('./images/muenster.png');
+  max-height: 400px;
+  float: right;
+  border-radius: 2px;
+}
+
+.noteworthy-splash {
+  float: right;
+  max-width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  margin-left: 15px;
+  margin-bottom: 10px;
+}
+
+.noteworthy-landing {
+  display: flex;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  margin-top: 15px;
+}
+
+.clearfix {
+  content: '';
+  display: block;
+  clear: both;
+  overflow: auto;
+}
+
+.divider-left {
+  width: 45%;
+}
+
+.divider-right {
+  width: 55%;
+}
+
+.bullet-points {
+  float: left;
+  margin-right: 25px;
+}
+
+.divider {
+  display: flex;
+  justify-content: space-between;
+}
+
+li {
+  line-height: 24px;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  margin: 5px;
+  font-size: 20px;
+}
+
+.project {
+  background: rgba(235, 235, 235, 1);
+  border-radius: 2px;
+  margin: 15px;
+  padding: 25px;
+}
+
+p {
+  margin: 0 10px;
+}
+
+.about-me {
+  margin: 15px;
+}
+.background {
+  background: rgba(235, 235, 235, 1);
+  padding: 25px;
+  border-radius: 2px;
+}
