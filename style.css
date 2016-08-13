@@ -3,10 +3,11 @@
 }
 
 .cover-photo {
-  background: url('images/cover_photo2.png') no-repeat;
-  background-size: 100%;
-  min-height: 515px;
+  /*background: url('images/cover_photo2.png') no-repeat;*/
+  background-size: cover;
+  width: 100%;
   border-radius: 2px;
+  margin: 0 auto;
 }
 
 .header-name {
